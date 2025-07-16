@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter";
+
+  --color-grey-500:#5E6E85;
+  --color-grey-300:#ACC1DE;
+  --color-blue-900:#253347;
+  --color-blue-500:#345FF6;
+  --color-blue-300:#B3D3F1;
+  --color-blue-100:#E1E7FE;
+  --color-gradient-1:#D6FCFE;
+  --color-gradient-2:#D6E6FE;
+
+  --spacing-72: 72px;
+  --spacing-88: 88px;
+  --spacing-104: 104px;
+
+  --text-14: 14px;
+  --text-16: 16px;
+  --text-20: 20px;
+  --text-32: 32px;
+}
+
+
+@layer utilities {
+  .container {
+    @apply lg:max-w-[1160px] mx-auto  md:max-w-[700] w-full
+  }
+}
+
+
