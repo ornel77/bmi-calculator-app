@@ -4,9 +4,8 @@ const Header = () => {
       <div className="absolute bg-linear-to-r from-gradient-1 to-gradient-2 top-0 left-0 w-full lg:w-[70%] -z-10 rounded-b-4xl lg:rounded-4xl h-[650px] lg:h-full" />
       <div className="container py-6">
         <div className="flex justify-center mb-8 lg:justify-normal">
-          <img src="/assets/images/logo.svg" alt="logo"/>
+          <img src="/assets/images/logo.svg" alt="logo" />
         </div>
-
 
         <section className="lg:flex lg:items-center gap-8">
           <div className="lg:flex-1 text-center lg:text-left">
@@ -84,16 +83,21 @@ const Header = () => {
                 </div>
               </div>
             </fieldset>
-            <section className="mt-6 bg-blue-500 text-white p-8 rounded-2xl md:flex md:justify-between md:items-center md:gap-6">
+
+            {/* RESULT */}
+            <section className="border-2 border-red-500 overflow-hidden mt-6 bg-blue-500 text-white p-8 rounded-2xl md:rounded-none md:rounded-r-full md:rounded-l-2xl md:flex md:justify-between md:items-center md:gap-6">
               <div className="flex-1">
                 <p>Your BMI is...</p>
-                <div className="mt-2 font-semibold text-5xl">
-                  23.4
-                </div>
+                <div className="mt-2 font-semibold text-5xl">23.4</div>
               </div>
               <p className="font-extralight mt-6 md:mt-0 leading-[150%] text-14 flex-1">
-                Your BMI suggests you’re a healthy weight. Your ideal weight is between <span className="font-semibold">63.3kgs - 85.2kgs</span>.
+                Your BMI suggests you’re a healthy weight. Your ideal weight is
+                between <span className="font-semibold">63.3kgs - 85.2kgs</span>
+                .
               </p>
+            </section>
+            <section className="mt-6 bg-blue-500 text-white p-8 overflow-hidden rounded-2xl md:rounded-none md:rounded-r-full md:rounded-l-2xl">
+              Test radius
             </section>
           </form>
         </section>
