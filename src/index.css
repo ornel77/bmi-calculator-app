@@ -9,12 +9,13 @@
   --color-blue-500:#345FF6;
   --color-blue-300:#B3D3F1;
   --color-blue-100:#E1E7FE;
-  --color-gradient-1:#D6FCFE;
+  --color-gradient-1:#D6FCF00;
   --color-gradient-2:#D6E6FE;
 
   --spacing-72: 72px;
   --spacing-88: 88px;
   --spacing-104: 104px;
+  --spacing-144: 144px;
 
   --text-14: 14px;
   --text-16: 16px;
@@ -25,7 +26,7 @@
 
 @layer utilities {
   .container {
-    @apply lg:max-w-[1160px] mx-auto  md:max-w-[700] w-full
+    @apply lg:max-w-[1160px] mx-auto  md:max-w-[686px] w-full
   }
 }
 
