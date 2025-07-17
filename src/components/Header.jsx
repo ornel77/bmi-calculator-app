@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="lg:w-full relative">
       <div className="absolute bg-linear-to-r from-gradient-1 to-gradient-2 top-0 left-0 w-full lg:w-[70%] -z-10 rounded-b-4xl lg:rounded-4xl h-[650px] lg:h-full" />
-      <div className="container lg:py-88 p-6">
+      <div className="container py-6">
         <div className="flex justify-center mb-8 lg:justify-normal">
           <img src="/assets/images/logo.svg" alt="logo"/>
         </div>
